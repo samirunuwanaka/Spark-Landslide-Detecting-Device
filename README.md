@@ -16,6 +16,15 @@ Landslides present a severe threat to lives and infrastructure in mountainous te
 
 Our project leverages an **edge-computing paradigm** built entirely around the **Raspberry Pi** ecosystem. By deploying low-power, localized sensor nodes directly in high-risk zones, the system collects, pre-processes, and analyzes environmental indicators locally to predict landslide thresholds and deliver high-speed early warnings.
 
+```bash
+git clone --recurse-submodules https://github.com/samirunuwanaka/Spark-Landslide-Detecting-Device.git
+```
+
+If you have already cloned the repository without submodules, run:
+
+```bash
+git submodule update --init --recursive
+```
 ---
 
 ## 🎯 Key Features
