@@ -1,0 +1,12 @@
+[submodule "Codes"]
+	path = Codes
+	url = https://github.com/samirunuwanaka/Spark-Landslide-Detecting-Device.git
+	branch = Codes
+[submodule "Circuit"]
+	path = Circuit
+	url = https://github.com/samirunuwanaka/Spark-Landslide-Detecting-Device.git
+	branch = Circuit
+[submodule "Enclosure"]
+	path = Enclosure
+	url = https://github.com/samirunuwanaka/Spark-Landslide-Detecting-Device.git
+	branch = Enclosure
