@@ -1,43 +1,71 @@
-# 🌍 Landslide Predictor — SPARK Challenge
+🌍 Predicting Landslides Before They Happen with AI and IoT
+!["The v2 overview"](project%20overview.png)
 
-[![SPARK Challenge](https://img.shields.io/badge/Competition-SPARK_Challenge-red)](https://ent.uom.lk/spark-at-uom/)
-[![Hardware](https://img.shields.io/badge/Hardware-Raspberry_Pi-A22846?logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
-[![Target](https://img.shields.io/badge/Focus-Climate_Action_&_SDGs-green)](#)
+What if we could move from *detecting* a landslide to *forecasting* the likelihood of one hours or even days in advance?
 
-An innovative, hardware-driven edge computing solution developed for the **SPARK Challenge** organized by the Department of Electronic and Telecommunication Engineering (ENTC), **University of Moratuwa**. 
+I'm exploring the concept of an **AI-powered Landslide Probability Prediction System** that combines real-time sensor networks, environmental monitoring, and predictive analytics to estimate the risk of slope failure before it occurs.
 
-This project aims to tackle localized climate and environmental disasters by utilizing a **Raspberry Pi** network to predict and warn against imminent landslide risks in high-vulnerability regions.
+Instead of simply triggering an alarm after dangerous conditions develop, the system continuously analyzes changing environmental parameters and estimates the probability of a future landslide.
 
----
+## 📡 Potential Data Sources
+- Rainfall intensity and cumulative rainfall
+- Soil moisture at multiple depths
+- Ground vibration (geophones/seismic sensors)
+- Slope inclination (MEMS inclinometers)
+- Ground deformation (GNSS, LiDAR, radar)
+- Pore water pressure
+- Groundwater level
+- Soil temperature and humidity
+- Weather forecasts
+- Historical landslide records
+- Satellite observations (where available)
 
-## 📌 Project Overview
+## 🧠 AI-Based Prediction Engine
 
-Landslides present a severe threat to lives and infrastructure in mountainous terrains. Traditional, large-scale forecasting models often lack the granular, real-time data needed for active local communities. 
+The AI model continuously learns from historical and real-time data to estimate the probability of slope instability.
 
-Our project leverages an **edge-computing paradigm** built entirely around the **Raspberry Pi** ecosystem. By deploying low-power, localized sensor nodes directly in high-risk zones, the system collects, pre-processes, and analyzes environmental indicators locally to predict landslide thresholds and deliver high-speed early warnings.
+Example output:
+```text
+📍 Location: Slope A
 
-```bash
-git clone --recurse-submodules https://github.com/samirunuwanaka/Spark-Landslide-Detecting-Device.git
+• Today (08:00): 8% probability
+• Today (14:00): 18% probability
+• Tomorrow: 42% probability
+• Next 48 hours: 71% probability
+
+The goal is not to predict with certainty, but to provide an evolving risk assessment that supports timely decisions.
 ```
+## 📊 Decision Support Dashboard
 
-If you have already cloned the repository without submodules, run:
+The platform could provide:
 
-```bash
-git submodule update --init --recursive
-```
----
+- [x] Real-time sensor visualization
+- [x] Probability trends over time
+- [x] Risk maps
+- [x] Sensor health monitoring
+- [x] Early warning notifications
+- [x] AI confidence levels
+- [x] Recommended response actions
 
-## 🎯 Key Features
+## 🚨 Potential Applications
 
-* **Edge Intelligence:** Runs optimized, lightweight predictive algorithms directly on the Raspberry Pi for immediate, offline risk assessment.
-* **Real-time Telemetry:** Continuously monitors soil, environmental, and geological dynamics with zero latency.
-* **Low-Power & Resilient:** Designed as a sustainable field-deployable unit aligned with UN Sustainable Development Goals (SDGs).
-* **Hardware-Accelerated Alerts:** Triggers local and remote emergency broadcasts if critical thresholds are breached.
+- Mountain communities
+- Highways and railways
+- Construction sites
+- Mining operations
+- Dams and reservoirs
+- Disaster management agencies
+- Smart cities
+- Environmental monitoring
 
----
+## 🔬 Future Vision
 
-## 🛠️ Hardware & Tech Ecosystem
+- [ ] Imagine thousands of connected sensor nodes forming an intelligent monitoring network that continuously updates a digital model of terrain conditions. By combining embedded systems, edge AI, cloud analytics, and geotechnical knowledge, we can move toward proactive disaster risk management rather than reactive emergency response.
 
-* **Primary Controller:** Raspberry Pi (Single Board Computer)
-* **Sensor Arrays:** Soil moisture modules, digital barometric pressure sensors, and 3-axis accelerometers/gyroscopes (for slope displacement).
-* **Language/Stack:** Python (for hardware interfacing and data telemetry)
+- [ ] Predicting natural hazards is inherently uncertain, and such systems should complement—not replace—expert geotechnical assessment. But improving early warning can help authorities prioritize inspections, plan evacuations, and reduce risk.
+
+- [ ] I believe the future of disaster resilience lies in integrating **AI, IoT, environmental sensing, robotics, and predictive analytics** to transform raw data into actionable insights.
+
+- [ ] What additional sensors or data sources would you include to improve landslide risk forecasting?
+
+>ArtificialIntelligence IoT MachineLearning PredictiveAnalytics EmbeddedSystems EnvironmentalMonitoring Landslide DisasterManagement GeotechnicalEngineering SmartSensors Robotics Engineering #Innovation ClimateResilience
