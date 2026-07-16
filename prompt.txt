@@ -1,0 +1,11 @@
+  use pipenv shell as I want to create this project in a virtual environment and need to creata a landslide detecting
+  system rasberry pi code in a directory named Hardware/rasberry_pi_code there it has 8 capacitor sensor arry to detect
+  the temperature of the soil the moisture of the soil and as well as the pressure exerted on the cap array which is mapable of with location
+  inserted in to the soil wrapping arround a rod nad the PCB enclosure is with a IR detector for watefall monitoring and
+  as well as the tilt and gps and need to create the central controller named directory in central_pc with the system
+  which has the capability of take the rasberry pi data and map the data in a map in order with the risk level of the landslide and flood
+  and create those in a buetiful UI with colourful UI in react app which is very easy to identify and readable with RAG based chat bot to pc for
+  easy decision taking for the   admin and re-built the README file as well as and need to dedicated and the pc is capable of 
+  sending messages for resendancies  of the risk area and as well as UI of the PC is capable of chat bot easy navigating and easy
+  readable platform README files inside the relavant files. You have to make a directory name Circuitry and there mention what are 
+  the components  and the pin arrangement used in the code. and at last run pipenv requirement > requirements.txt to generate requerements in txt file
