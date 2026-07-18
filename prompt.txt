@@ -4,7 +4,8 @@
   inserted in to the soil wrapping arround a rod nad the PCB enclosure is with a IR detector for watefall monitoring and
   as well as the tilt and gps and need to create the central controller named directory in central_pc with the system
   which has the capability of take the rasberry pi data and map the data in a map in order with the risk level of the landslide and flood
-  and create those in a buetiful UI with colourful UI in react app which is very easy to identify and readable with RAG based chat bot to pc for
+  and create those in a buetiful UI with colourful UI in react app and there it should be how the trends go per device meaning trends of location wise
+  which is very easy to identify and readable with RAG based chat bot to pc for
   easy decision taking for the   admin and re-built the README file as well as and need to dedicated and the pc is capable of 
   sending messages for resendancies  of the risk area and as well as UI of the PC is capable of chat bot easy navigating and easy
   readable platform README files inside the relavant files. You have to make a directory name Circuitry and there mention what are 
