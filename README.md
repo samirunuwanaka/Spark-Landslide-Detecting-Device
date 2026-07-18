@@ -6,8 +6,17 @@
 
 An AI and IoT-powered geological slope failure forecasting and warning platform. The system uses a network of buried Raspberry Pi sensor nodes and a central PC monitoring console to predict slope failures hours or days before they happen.
 
-![System Overview](project%20overview.png)
-
+<details>
+  <summary>
+    <!-- This acts as your "Click to Play" banner -->
+    <img src="project overview.png" alt="Click to expand and watch video" width="600">
+  </summary>
+  
+  <br>
+  
+  <!-- The actual video that plays when expanded -->
+  <video src="central_pc/frontend/video.mp4" controls width="600" autoplay muted loop playsinline></video>
+</details>
 ---
 
 ## 📂 Project Structure

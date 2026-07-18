@@ -1,5 +1,15 @@
 # 📊 Central PC React Dashboard
-!["Frontend web server"](site_frontend.png)
+<details>
+  <summary>
+    <!-- This acts as your "Click to Play" banner -->
+    <img src="site_frontend.png" alt="Click to expand and watch video" width="600">
+  </summary>
+  
+  <br>
+  
+  <!-- The actual video that plays when expanded -->
+  <video src="video.mp4" controls width="600" autoplay muted loop playsinline></video>
+</details>
 
 This is the central control station interface, built in React with Vite. It connects to the central PC Flask backend API (`http://localhost:5000`) and displays geological data, flood threats, and risk trends.
 

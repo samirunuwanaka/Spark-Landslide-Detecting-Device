@@ -1,0 +1,2 @@
+Record=TopLevelDocument|FileName=Sheet1.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Cap_Volt_Convert.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Cap_Volt_Convert.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
