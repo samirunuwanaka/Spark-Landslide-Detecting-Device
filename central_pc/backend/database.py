@@ -2,11 +2,12 @@ import sqlite3
 import os
 import json
 import time
+import math
 
 DATABASE_PATH = os.path.join(os.path.dirname(__file__), "landslide_data.db")
 
 def get_db_connection():
-    conn = sqlite3.connect(DATABASE_PATH)
+    conn = sqlite3.connect(DATABASE_PATH, timeout=10.0)
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -196,6 +197,7 @@ def get_telemetry_history(node_id, limit=30):
         row["pressure_array"] = json.loads(row["pressure_array"])
         row["temperature_array"] = json.loads(row["temperature_array"])
         row["waterfall_detected"] = bool(row["waterfall_detected"])
+        row["sensor_depths_cm"] = [10, 20, 30, 40, 50, 60, 70, 80]
     
     # Return chronologically (oldest first for graphing)
     return rows[::-1]

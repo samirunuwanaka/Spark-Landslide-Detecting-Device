@@ -1,4 +1,5 @@
 # 📊 Central PC React Dashboard
+!["Frontend web server"](site_frontend.png)
 
 This is the central control station interface, built in React with Vite. It connects to the central PC Flask backend API (`http://localhost:5000`) and displays geological data, flood threats, and risk trends.
 

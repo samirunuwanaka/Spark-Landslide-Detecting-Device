@@ -1,5 +1,9 @@
 # 🌍 Spark Landslide and Flood Detecting System
 
+[![SPARK Challenge](https://img.shields.io/badge/Competition-SPARK_Challenge-red)](https://ent.uom.lk/spark-at-uom/)
+[![Hardware](https://img.shields.io/badge/Hardware-Raspberry_Pi-A22846?logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
+[![Target](https://img.shields.io/badge/Focus-Climate_Action_&_SDGs-green)](#)
+
 An AI and IoT-powered geological slope failure forecasting and warning platform. The system uses a network of buried Raspberry Pi sensor nodes and a central PC monitoring console to predict slope failures hours or days before they happen.
 
 ![System Overview](project%20overview.png)

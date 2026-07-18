@@ -218,12 +218,15 @@ function App() {
   
   // Format current moisture and pressure along the 8 depth levels
   const depthProfileData = latestTelemetry 
-    ? latestTelemetry.moisture_array.map((m, idx) => ({
-        depth: `${latestTelemetry.sensor_depths_cm[idx]} cm`,
-        moisture: m,
-        pressure: latestTelemetry.pressure_array[idx],
-        temperature: latestTelemetry.temperature_array[idx]
-      }))
+    ? latestTelemetry.moisture_array.map((m, idx) => {
+        const depths = latestTelemetry.sensor_depths_cm || [10, 20, 30, 40, 50, 60, 70, 80];
+        return {
+          depth: `${depths[idx] !== undefined ? depths[idx] : (idx + 1) * 10} cm`,
+          moisture: m,
+          pressure: latestTelemetry.pressure_array[idx],
+          temperature: latestTelemetry.temperature_array[idx]
+        };
+      })
     : [];
 
   // Format historical timeline values (averages of arrays over time)
