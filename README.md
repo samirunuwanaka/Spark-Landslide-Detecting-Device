@@ -15,7 +15,7 @@ An AI and IoT-powered geological slope failure forecasting and warning platform.
   <br>
   
   <!-- The actual video that plays when expanded -->
-  <video src="central_pc/frontend/video.mp4" controls width="600" autoplay muted loop playsinline></video>
+  <a href="central_pc/frontend/video.mp4">UI video<video src="central_pc/frontend/video.mp4" controls width="600" autoplay muted loop playsinline></video></a>
 </details>
 ---
 
